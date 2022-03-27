@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" href="assets/img/logo.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="contact">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="logo" height="38px" weight="20px"> Minecraft Guide</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-right" id="navbarText">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid contact pt-5 pb-5">
+        <div class="container text-center py-5" id="contact">
+            <h2 class="display-3">Contact Me</h2>
+            <h5>Kirimkan pesan ke kami</h5>
+            <form action="#">
+            <div class="row pb-3 pt-5">
+                <div class="col-md-6">
+                    <input class="form-control form-control-lg mb-3" type="text" placeholder="Nama">
+                    <input class="form-control form-control-lg mb-3" type="email" placeholder="Email">
+                    <input class="form-control form-control-lg mb-3" type="number" placeholder="No HP">
+                </div>
+                <div class="col-md-6">
+                    <textarea class="form-control form-control-lg" rows="5" placeholder="Pesan"></textarea>
+                </div>
+            </div>
+            <div class="col-md-3 mx-auto text-center">
+                <button type="reset" class="btn btn-danger btn-lg" onclick="alert('Berhasil kirim pesan')" o>Kirim Pesan</button>
+            </div>
+          </form>
+        </div>
+    </div>  
+      <script src="assets/js/bootstrap.js"></script>
+</body>
+</html>

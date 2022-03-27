@@ -1,0 +1,28 @@
+.awal{
+    background:url("assets/img/home.jpg")no-repeat center center;
+    background-size: cover;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    color:rgb(222, 234, 245);
+}
+.blog{
+    background-color: #2b363a;
+    color: rgb(222, 234, 245);
+}
+.about {
+    background-color: rgb(222, 234, 245);
+}
+#contact{
+    background-color: #2b363a;
+    color: rgb(222, 234, 245);
+}
+#aboutsaya{
+    padding-top: 30px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+  }
